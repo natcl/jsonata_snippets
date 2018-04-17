@@ -43,7 +43,7 @@ By returning the value `$v` without modifying it, it returns the people array:
 ]
 ```
 
-What we want to do now is create a new structure with the name and id as the key:
+We'll then want to create a new structure with the `name` and `id` as the key:
 
 ```
 people ~> $map(
