@@ -17,7 +17,7 @@ Consider this data set:
 }
 ```
 
-The `people` object contains an array of objects with data about users.  The goal is to convert this array to an object with each key being the `name` property and data being the rest of the properties (exluding `name`).  We also notice that the name "John" is there 2 times so we will need to use the `id` property as part of the key to ensure the key is unique.
+The `people` object contains an array of objects with data about users.  The goal is to convert this array to an object with each key being the `name` property and data being the rest of the properties (excluding `name`).  We also notice that the name "John" is there 2 times so we will need to use the `id` property as part of the key to ensure the key is unique.
 
 We will first want to use the `$map` function that will execute a callback for each element in the array:
 
