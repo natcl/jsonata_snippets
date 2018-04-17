@@ -10,7 +10,7 @@ Consider this data set:
   [
       {"name": "John", "gender": "male", "id": 1},
       {"name": "Jane", "gender": "female", "id": 2},
-      {"name": "Jack", "gender": "unkown", "id": 3},
+      {"name": "Jack", "gender": "unknown", "id": 3},
       {"name": "John", "gender": "male", "id": 4}
   
   ]
@@ -142,7 +142,7 @@ Our final structure looks like this:
     "id": 2
   },
   "Jack_3": {
-    "gender": "unkown",
+    "gender": "unknown",
     "id": 3
   },
   "John_4": {
